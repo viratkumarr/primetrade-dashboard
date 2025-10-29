@@ -39,6 +39,7 @@ This project was developed as a submission for the **Frontend Developer Intern A
 ---
 
 ### 📊 Dashboard
+![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/ed3658856ea687c80d9fe5238218b65fe81136cb/Screenshot%202025-10-30%20000035.png)
 - **CRUD Operations:** Create, read, inline edit, and delete notes  
 - **Search & Highlight:** Matching notes bubble to the top and highlight in red; “Clear” restores default view  
 - **Pagination:** Efficient listing with `page` and `limit` parameters  
@@ -48,6 +49,7 @@ This project was developed as a submission for the **Frontend Developer Intern A
 ---
 
 ### 👤 Profile Management
+![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/ed3658856ea687c80d9fe5238218b65fe81136cb/Screenshot%202025-10-30%20000035.png)
 - View and edit **profile details**  
 - Change **name/email/password** with intelligent redirect logic:
   - Editing **username only** → stay logged in  
