@@ -138,16 +138,32 @@ export default function DashboardPage() {
         <>
           <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
             {notes.map(n => (
-              <li key={n._id} className={`flex flex-col gap-2 rounded-xl p-3 shadow ${
-                n.highlight ? 'bg-red-100 border-2 border-red-300' : 'bg-white'
-              }`}>
+              <li
+                key={n._id}
+                className={`flex flex-col gap-2 rounded-xl p-3 shadow ${
+                  editingId === n._id
+                    ? 'bg-yellow-50 border-2 border-yellow-300'
+                    : n.highlight
+                    ? 'bg-red-100 border-2 border-red-300'
+                    : 'bg-white'
+                }`}
+              >
                 {editingId === n._id ? (
                   <form onSubmit={saveEdit} className="flex flex-col gap-2">
-                    <input className="rounded border px-2 py-2" value={editTitle} onChange={e=>setEditTitle(e.target.value)} required />
-                    <input className="rounded border px-2 py-2" value={editContent} onChange={e=>setEditContent(e.target.value)} />
+                    <input
+                      className="rounded border border-zinc-400 bg-white px-2 py-2 text-zinc-900 placeholder-zinc-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+                      value={editTitle}
+                      onChange={e=>setEditTitle(e.target.value)}
+                      required
+                    />
+                    <input
+                      className="rounded border border-zinc-400 bg-white px-2 py-2 text-zinc-900 placeholder-zinc-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+                      value={editContent}
+                      onChange={e=>setEditContent(e.target.value)}
+                    />
                     <div className="flex gap-2 self-end">
-                      <button type="submit" className="rounded bg-blue-600 px-2 py-1 text-sm text-white">Save</button>
-                      <button type="button" onClick={cancelEdit} className="rounded bg-zinc-200 px-2 py-1 text-sm">Cancel</button>
+                      <button type="submit" className="rounded bg-blue-600 px-3 py-1 text-sm text-white hover:bg-blue-700">Save</button>
+                      <button type="button" onClick={cancelEdit} className="rounded bg-zinc-200 px-3 py-1 text-sm text-zinc-800">Cancel</button>
                     </div>
                   </form>
                 ) : (
@@ -159,8 +175,8 @@ export default function DashboardPage() {
                       n.highlight ? 'text-red-800' : 'text-zinc-800'
                     }`}>{n.content}</div>
                     <div className="flex gap-3 self-end">
-                      <button onClick={()=>startEdit(n)} className="text-sm text-blue-600">Edit</button>
-                      <button onClick={()=>delNote(n._id)} className="text-sm text-red-600">Delete</button>
+                      <button onClick={()=>startEdit(n)} className="text-sm font-medium text-blue-600 hover:text-blue-700">Edit</button>
+                      <button onClick={()=>delNote(n._id)} className="text-sm font-medium text-red-600 hover:text-red-700">Delete</button>
                     </div>
                   </>
                 )}
