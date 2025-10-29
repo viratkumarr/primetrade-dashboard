@@ -8,7 +8,7 @@
     A fully responsive full-stack web application built for the <strong>Primetrade.ai Frontend Developer Internship</strong> task — featuring authentication, dashboard, CRUD operations, and secure backend integration.
   </p>
 
-  ![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/main/screenshots/dashboard-preview.png)
+  ![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/6c391e75285784d89d2b0d9dd9eb58e402b3d117/Screenshot%202025-10-30%20000035.png)
 </div>
 
 ---
