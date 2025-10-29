@@ -39,7 +39,7 @@ This project was developed as a submission for the **Frontend Developer Intern A
 ---
 
 ### 📊 Dashboard
-![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/main/screenshots/dashboard-preview.png)
+![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/68d861ffa8440cc9b553cb49ffb3258ef96122dc/Screenshot%202025-10-30%20000149.png)
 - **CRUD Operations:** Create, read, inline edit, and delete notes  
 - **Search & Highlight:** Matching notes bubble to the top and highlight in red; “Clear” restores default view  
 - **Pagination:** Efficient listing with `page` and `limit` parameters  
