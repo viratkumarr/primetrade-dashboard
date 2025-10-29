@@ -1,0 +1,33 @@
+{
+  "info": {
+    "name": "Primetrade Task API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "url": "http://localhost:5000/api/auth/register", "body": {"mode":"raw", "raw": "{\n  \"name\": \"Test\",\n  \"email\": \"test@example.com\",\n  \"password\": \"Password123!\"\n}"}},
+      "response": []
+    },
+    {
+      "name": "Login",
+      "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "url": "http://localhost:5000/api/auth/login", "body": {"mode":"raw", "raw": "{\n  \"email\": \"test@example.com\",\n  \"password\": \"Password123!\"\n}"}},
+      "response": []
+    },
+    {
+      "name": "Profile",
+      "request": {"method": "GET", "header": [], "url": "http://localhost:5000/api/profile"},
+      "response": []
+    },
+    {
+      "name": "Create Note",
+      "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "url": "http://localhost:5000/api/notes", "body": {"mode":"raw", "raw": "{\n  \"title\": \"First Note\",\n  \"content\": \"Hello\"\n}"}},
+      "response": []
+    },
+    {
+      "name": "List Notes",
+      "request": {"method": "GET", "header": [], "url": "http://localhost:5000/api/notes?q=first"},
+      "response": []
+    }
+  ]
+}
