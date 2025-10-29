@@ -49,7 +49,7 @@ This project was developed as a submission for the **Frontend Developer Intern A
 ---
 
 ### 👤 Profile Management
-![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/ed3658856ea687c80d9fe5238218b65fe81136cb/Screenshot%202025-10-30%20000035.png)
+![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/07a81b6512723de45289e3f5d6d0053cad2264be/Screenshot%202025-10-30%20000300.png)
 - View and edit **profile details**  
 - Change **name/email/password** with intelligent redirect logic:
   - Editing **username only** → stay logged in  
