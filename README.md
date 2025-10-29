@@ -45,7 +45,7 @@ This project was developed as a submission for the **Frontend Developer Intern A
 - **Pagination:** Efficient listing with `page` and `limit` parameters  
 - **Smooth UI:** Skeleton loaders and refined contrast for better readability  
 - **Fully responsive:** Optimized for desktop, tablet, and mobile layouts  
-![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/main/screenshots/dashboard-preview.png)
+![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/63c098068348e7f2afb7cb78324391c9f495beb2/Screenshot%202025-10-30%20000213.png)
 
 ---
 
