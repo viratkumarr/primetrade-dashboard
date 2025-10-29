@@ -46,7 +46,7 @@ This project was developed as a submission for the **Frontend Developer Intern A
 - **Smooth UI:** Skeleton loaders and refined contrast for better readability  
 - **Fully responsive:** Optimized for desktop, tablet, and mobile layouts  
 
-![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/07a81b6512723de45289e3f5d6d0053cad2264be/Screenshot%202025-10-30%20000300.png)
+![image alt](https://github.com/ViratKumarr/PrimeTrade-Dashboard/blob/398d1fbf6fb2a174b8c7dc40fd9df90d685ab5b9/Screenshot%202025-10-30%20000213.png)
 
 ---
 
